@@ -1,0 +1,52 @@
+body .ball-pulse > div {
+	background-color: #000;
+}
+
+/* Hide the weird extra Luminate API errors when you get a error message when saving the Luminate API creds and the creds are wrong */
+.luminate_api_message + .luminate_api_message {
+	display: none;
+}
+
+.hideShowPassword-field {
+	max-width: 92%;
+}
+
+.no-survey-questions-found {
+	color: #856404;
+	background-color: #fff3cd;
+	border: 1px solid #856404;
+}
+
+.no-survey-questions-found td {
+	padding: 1em;
+}
+
+/* Style the Cornershop info block on the plugin settings page */
+.gfluminate-cornershop-info {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 4rem 0 0;
+	padding: 0.5rem 0;
+	/* Border/shadow is meant to be like that of the Gravity Forms settings
+	 * section, but bolder and in Cornershop colors */
+	border-radius: 3px;
+	border: 1px solid #f36e51;
+	box-shadow: 0 1px 4px rgba(115, 3, 0, 0.3);
+	background: #fff;
+}
+
+.gfluminate-cornershop-info .cshp-logo-link,
+.gfluminate-cornershop-info .blurb {
+	margin: 0.5rem 1rem;
+}
+
+.gfluminate-cornershop-info .cshp-logo-link {
+	flex: 0 0 auto;
+}
+
+.gfluminate-cornershop-info .blurb {
+	width: 60%;
+	padding-right: 1rem;
+	flex: 1 0 auto;
+}
